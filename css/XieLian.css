@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: rgba(219, 53, 53);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header h1, h4{
+    color: white; 
+}
+
+header img{
+    border-radius: 160px;
+    width: 300px;
+    border: 15px solid rgba(2550,255,255,0.9);
+}
