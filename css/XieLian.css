@@ -3,9 +3,12 @@ body{
     font-family: Helvetica, Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 
 /* Header */
 
+=======
+>>>>>>> parent of 0ed3237... First draft final version
 header{
     background-color: rgba(219, 53, 53);
     text-align: center;
@@ -22,6 +25,7 @@ header img{
     width: 300px;
     border: 15px solid rgba(2550,255,255,0.9);
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -83,3 +87,5 @@ footer a:hover{
 
 
 /*** Last Updated: 2021/01/25 ***/
+=======
+>>>>>>> parent of 0ed3237... First draft final version
