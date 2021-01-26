@@ -57,7 +57,8 @@ main{
 
 main img{
     max-width: 100%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 /** Text **/
@@ -79,7 +80,7 @@ p.caption{
     color: #999999;
     font-style: italic;
     font-size: 15px;
-    margin-top: 5px;  
+    margin-top: 0px;
 }
 
 /* Footer */
