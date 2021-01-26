@@ -1,10 +1,9 @@
 body{
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17.5px;
-    line-height: 25px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
+<<<<<<< HEAD
 
 /* Header */
 
@@ -16,45 +15,25 @@ body{
     width: fit-content;
 }
 
+=======
+>>>>>>> parent of 0ed3237... First draft final version
 header{
     background-color: rgba(219, 53, 53);
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-/** Header Headings **/
 header h1, h4{
     color: white; 
-    margin-bottom: 30px;
 }
 
-header h1{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 60px;
-}
-
-/** Headings **/
-h1, h2{
-    font-family: 'Kaushan Script', cursive;
-    font-size: 40px;
-}
-
-h4, h3{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-}
-
-h4{
-    margin-bottom: 20px;
-}
-
-/** Avatar **/
 header img{
     border-radius: 160px;
     width: 300px;
     border: 15px solid rgba(2550,255,255,0.9);
 }
+<<<<<<< HEAD
 
 
 
@@ -126,3 +105,5 @@ footer a:hover{
 
 
 
+=======
+>>>>>>> parent of 0ed3237... First draft final version
