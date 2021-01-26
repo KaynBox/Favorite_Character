@@ -1,35 +1,111 @@
 body{
-    background: rgb(239, 239, 191, 0.3);
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.5px;
+    line-height: 25px;
 }
 
 
-h1{
-    font-size: 30px;
-    color: rgb(58, 97, 128);   
+/* Header */
+header{
+    background-color: rgba(219, 53, 53);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+/** Header Headings **/
+header h1, h4{
+    color: white; 
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+}
+
+/** Headings **/
+h1, h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+h4, h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+/** Avatar **/
+header img{
+    border-radius: 160px;
+    width: 300px;
+    border: 15px solid rgba(2550,255,255,0.9);
+}
+
+
+
+/* Main */
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 20px 50px 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+/** Text **/
 
 h2{
-    font-size: 20px;
-    color: rgb(255, 168, 85);
+    margin-top: 50px;
 }
 
-.big{
-    font-size: 50px;
+h2, a{
+    color: rgba(219, 53, 53);
 }
 
-.uppercase{
-    text-transform: uppercase;
-
+a:hover{
+    color: rgb(191,150,44)
 }
 
-.big.uppercase{
-    color: rgb(225, 63, 63);
+p.caption{
+    text-align: center;
+    color: #999999;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 5px;
+    
 }
 
-span{
-    font-weight: bold;
+/* Footer */
+footer{
+    background-color: rgba(219, 53, 53);
+    color: white;
+    text-align: center;
+    padding: 40px;
 }
 
-h1 span{
-    color: rgb(225, 120, 60);
+footer p{
+    margin: 0;
 }
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: white;
+    opacity: .7;
+    background-color: transparent;
+}
+
+/*** Last Updated: 2021/01/25 ***/
