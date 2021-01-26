@@ -7,6 +7,16 @@ body{
 
 
 /* Header */
+
+/** Music **/
+.music{
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+    display: none
+}
+
 header{
     background-color: rgba(219, 53, 53);
     text-align: center;
@@ -105,10 +115,6 @@ footer a:hover{
     background-color: transparent;
 }
 
-/** Music **/
-embed{
-    background-color: transparent;
-}
 
 /*** Last Updated: 2021/01/25 ***/
 
