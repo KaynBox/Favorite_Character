@@ -1,6 +1,8 @@
 body{
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.5px;
+    line-height: 25px;
 }
 
 
@@ -9,18 +11,41 @@ body{
 header{
     background-color: rgba(219, 53, 53);
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
-header h1, h4{
-    color: white; 
-}
-
+/** Avatar **/
 header img{
     border-radius: 160px;
     width: 300px;
     border: 15px solid rgba(2550,255,255,0.9);
+}
+
+/** Headings **/
+header h1, h4{
+    color: white; 
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+}
+
+/** Headings **/
+h1, h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+h4, h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+h4{
+    margin-bottom: 20px;
 }
 
 /* Main */
@@ -32,6 +57,7 @@ main{
 
 main img{
     max-width: 100%;
+    padding: 20px;
 }
 
 /** Text **/
@@ -45,7 +71,7 @@ h2, a{
 }
 
 a:hover{
-    color: rgb(191,150,44)
+    color: rgb(191,150,44);
 }
 
 p.caption{
@@ -53,8 +79,7 @@ p.caption{
     color: #999999;
     font-style: italic;
     font-size: 15px;
-    margin-top: 5px;
-    
+    margin-top: 5px;  
 }
 
 /* Footer */
