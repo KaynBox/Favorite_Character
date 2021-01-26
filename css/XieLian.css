@@ -8,6 +8,15 @@ body{
 
 /* Header */
 
+/** Audio **/
+header audio{
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    width: 250px;
+    height: 40px;
+}
+
 header{
     background-color: rgba(219, 53, 53);
     text-align: center;
