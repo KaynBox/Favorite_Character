@@ -1,6 +1,6 @@
-# Favorite_Character
+# Xie Lian
 This is my first handcoded website. A profile for one of my favorite characters: Xie Lian, main protagonist of the novel Heaven Official's Blessing.
-Previews of the site:
+Here are previews of the site:
 
 ![Xie Lian Page Preview #1](website-preview01.png "Preview #1")
 ![Xie Lian Page Preview #2](website-preview02.png "Preview #2")
